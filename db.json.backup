@@ -1,0 +1,202 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "wholesaler@example.com",
+      "role": "wholesaler",
+      "company": "ABC Retail",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "email": "admin@example.com",
+      "role": "admin",
+      "company": "Wholesale Inc",
+      "password": "password123",
+      "lastLogin": "2026-08-03T10:15:27.411Z"
+    },
+    {
+      "id": "yAcZO67As3Y",
+      "email": "njoki@gmail.com",
+      "password": "john123",
+      "role": "retailer",
+      "company": "iestperky",
+      "fullName": "mary anne",
+      "createdAt": "2026-08-02T21:11:46.462Z"
+    },
+    {
+      "id": "iQyC3zuEYiE",
+      "email": "silvestermbugua13@gmail.com",
+      "password": "mwas123",
+      "role": "retailer",
+      "company": "ls.ltd",
+      "fullName": "mary anne",
+      "createdAt": "2026-08-02T21:44:50.382Z"
+    },
+    {
+      "id": "X5Mqeh5lyRo",
+      "email": "iestperkyperky@gmail.com",
+      "password": "perky123",
+      "role": "wholesaler",
+      "company": "luo",
+      "fullName": "JOHN m",
+      "createdAt": "2026-08-02T22:42:27.358Z"
+    },
+    {
+      "id": "PdjYrvgIwK4",
+      "email": "silvestermbugua16@gmail.com",
+      "password": "Iestperky#4.",
+      "role": "retailer",
+      "company": "yu",
+      "fullName": "vea",
+      "createdAt": "2026-08-02T23:50:26.915Z",
+      "lastLogin": "2026-08-03T10:11:28.953Z"
+    },
+    {
+      "id": "g6bnHyaZKho",
+      "email": "iestperperky@gmail.com",
+      "password": "iestperky#4.",
+      "role": "wholesaler",
+      "company": "loo",
+      "fullName": "perky",
+      "createdAt": "2026-08-03T08:30:51.624Z",
+      "isVerified": false,
+      "lastLogin": null
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "sku": "PROD-001",
+      "name": "Premium Widget",
+      "description": "High-quality widget for industrial use",
+      "price": 25.99,
+      "wholesalePrice": 15.5,
+      "stock": 500,
+      "category": "Widgets",
+      "minOrderQty": 10,
+      "image": "https://picsum.photos/seed/widget/200/200"
+    },
+    {
+      "id": "2",
+      "sku": "PROD-002",
+      "name": "Heavy-Duty Bracket",
+      "description": "Durable steel bracket for heavy loads",
+      "price": 42.5,
+      "wholesalePrice": 28.75,
+      "stock": 250,
+      "category": "Hardware",
+      "minOrderQty": 5,
+      "image": "https://picsum.photos/seed/bracket/200/200"
+    },
+    {
+      "id": "3",
+      "sku": "PROD-003",
+      "name": "Industrial Lubricant",
+      "description": "Synthetic lubricant for machinery",
+      "price": 89.99,
+      "wholesalePrice": 62.99,
+      "stock": 1000,
+      "category": "Supplies",
+      "minOrderQty": 20,
+      "image": "https://picsum.photos/seed/lubricant/200/200"
+    },
+    {
+      "id": "4",
+      "sku": "PROD-004",
+      "name": "Smart Sensor Kit",
+      "description": "IoT-enabled sensor kit for industrial monitoring",
+      "price": 149.99,
+      "wholesalePrice": 99.99,
+      "stock": 75,
+      "category": "Electronics",
+      "minOrderQty": 2,
+      "image": "https://picsum.photos/seed/sensor/200/200"
+    },
+    {
+      "id": "5",
+      "sku": "PROD-005",
+      "name": "Safety Gloves Pack",
+      "description": "Pack of 12 heavy-duty safety gloves",
+      "price": 35.99,
+      "wholesalePrice": 22.5,
+      "stock": 300,
+      "category": "Safety",
+      "minOrderQty": 12,
+      "image": "https://picsum.photos/seed/gloves/200/200"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "userId": "Customer A",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 50,
+          "product": {
+            "id": "1",
+            "name": "Premium Widget",
+            "wholesalePrice": 15.5
+          }
+        }
+      ],
+      "total": 775,
+      "status": "delivered",
+      "createdAt": "2026-02-10T08:30:00Z",
+      "shippingAddress": "123 Main St"
+    },
+    {
+      "id": "ORD-1002",
+      "userId": "Customer B",
+      "items": [
+        {
+          "productId": "2",
+          "quantity": 20,
+          "product": {
+            "id": "2",
+            "name": "Heavy-Duty Bracket",
+            "wholesalePrice": 28.75
+          }
+        },
+        {
+          "productId": "3",
+          "quantity": 30,
+          "product": {
+            "id": "3",
+            "name": "Industrial Lubricant",
+            "wholesalePrice": 62.99
+          }
+        }
+      ],
+      "total": 2464.7,
+      "status": "processing",
+      "createdAt": "2026-02-12T13:45:00Z",
+      "shippingAddress": "456 Oak Ave"
+    },
+    {
+      "id": "ORD-1003",
+      "userId": "Customer C",
+      "items": [
+        {
+          "productId": "4",
+          "quantity": 5,
+          "product": {
+            "id": "4",
+            "name": "Smart Sensor Kit",
+            "wholesalePrice": 99.99
+          }
+        }
+      ],
+      "total": 499.95,
+      "status": "shipped",
+      "createdAt": "2026-02-14T10:00:00Z",
+      "shippingAddress": "789 Pine Rd"
+    }
+  ],
+  "cart": {
+    "userId": null,
+    "items": []
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}

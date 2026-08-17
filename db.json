@@ -1,0 +1,212 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "wholesaler@example.com",
+      "role": "wholesaler",
+      "company": "ABC Retail",
+      "password": "password123"
+    },
+    {
+      "id": "2",
+      "email": "admin@example.com",
+      "role": "admin",
+      "company": "Wholesale Inc",
+      "password": "password123",
+      "lastLogin": "2026-08-05T01:08:41.060Z"
+    },
+    {
+      "id": "yAcZO67As3Y",
+      "email": "njoki@gmail.com",
+      "password": "john123",
+      "role": "retailer",
+      "company": "iestperky",
+      "fullName": "mary anne",
+      "createdAt": "2026-08-02T21:11:46.462Z"
+    },
+    {
+      "id": "iQyC3zuEYiE",
+      "email": "silvestermbugua13@gmail.com",
+      "password": "mwas123",
+      "role": "retailer",
+      "company": "ls.ltd",
+      "fullName": "mary anne",
+      "createdAt": "2026-08-02T21:44:50.382Z",
+      "lastLogin": "2026-08-04T20:11:58.696Z"
+    },
+    {
+      "id": "X5Mqeh5lyRo",
+      "email": "iestperkyperky@gmail.com",
+      "password": "Iestperky#4.",
+      "role": "wholesaler",
+      "company": "luo",
+      "fullName": "JOHN m",
+      "createdAt": "2026-08-02T22:42:27.358Z"
+    },
+    {
+      "id": "PdjYrvgIwK4",
+      "email": "silvestermbugua16@gmail.com",
+      "password": "Iestperky#4.",
+      "role": "retailer",
+      "company": "yu",
+      "fullName": "vea",
+      "createdAt": "2026-08-02T23:50:26.915Z",
+      "lastLogin": "2026-08-04T20:03:37.892Z"
+    },
+    {
+      "id": "g6bnHyaZKho",
+      "email": "iestperperky@gmail.com",
+      "password": "iestperky#4.",
+      "role": "wholesaler",
+      "company": "loo",
+      "fullName": "perky",
+      "createdAt": "2026-08-03T08:30:51.624Z",
+      "isVerified": false,
+      "lastLogin": null
+    },
+    {
+      "id": "RPo4p-o76RA",
+      "email": "mbuguajamoo12@gmail.com",
+      "password": "Lulubelle#4.",
+      "role": "wholesaler",
+      "company": "wakuu",
+      "fullName": "jamoo",
+      "createdAt": "2026-08-04T20:13:26.094Z",
+      "isVerified": false,
+      "lastLogin": "2026-08-05T00:59:02.954Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "sku": "PROD-001",
+      "name": "Premium Widget",
+      "description": "High-quality widget for industrial use",
+      "price": 25.99,
+      "wholesalePrice": 15.5,
+      "stock": 500,
+      "category": "Widgets",
+      "minOrderQty": 10,
+      "image": "https://picsum.photos/seed/widget/200/200"
+    },
+    {
+      "id": "3",
+      "sku": "PROD-003",
+      "name": "Industrial Lubricant",
+      "description": "Synthetic lubricant for machinery",
+      "price": 89.99,
+      "wholesalePrice": 62.99,
+      "stock": 1000,
+      "category": "Supplies",
+      "minOrderQty": 20,
+      "image": "https://picsum.photos/seed/lubricant/200/200"
+    },
+    {
+      "id": "4",
+      "sku": "PROD-004",
+      "name": "Smart Sensor Kit",
+      "description": "IoT-enabled sensor kit for industrial monitoring",
+      "price": 149.99,
+      "wholesalePrice": 99.99,
+      "stock": 75,
+      "category": "Electronics",
+      "minOrderQty": 2,
+      "image": "https://picsum.photos/seed/sensor/200/200"
+    },
+    {
+      "id": "5",
+      "sku": "PROD-005",
+      "name": "Safety Gloves Pack",
+      "description": "Pack of 12 heavy-duty safety gloves",
+      "price": 35.99,
+      "wholesalePrice": 22.5,
+      "stock": 300,
+      "category": "Safety",
+      "minOrderQty": 12,
+      "image": "https://picsum.photos/seed/gloves/200/200"
+    },
+    {
+      "sku": "laptop",
+      "name": "hp",
+      "description": "No description",
+      "price": 250,
+      "wholesalePrice": 200,
+      "stock": 400,
+      "category": "Electronics",
+      "minOrderQty": 10,
+      "image": "data:image/jpeg;base64,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",
+      "createdAt": "2026-08-04T19:55:53.956Z",
+      "id": "6"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "userId": "Customer A",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 50,
+          "product": {
+            "id": "1",
+            "name": "Premium Widget",
+            "wholesalePrice": 15.5
+          }
+        }
+      ],
+      "total": 775,
+      "status": "delivered",
+      "createdAt": "2026-02-10T08:30:00Z",
+      "shippingAddress": "123 Main St"
+    },
+    {
+      "id": "ORD-1002",
+      "userId": "Customer B",
+      "items": [
+        {
+          "productId": "2",
+          "quantity": 20,
+          "product": {
+            "id": "2",
+            "name": "Heavy-Duty Bracket",
+            "wholesalePrice": 28.75
+          }
+        },
+        {
+          "productId": "3",
+          "quantity": 30,
+          "product": {
+            "id": "3",
+            "name": "Industrial Lubricant",
+            "wholesalePrice": 62.99
+          }
+        }
+      ],
+      "total": 2464.7,
+      "status": "processing",
+      "createdAt": "2026-02-12T13:45:00Z",
+      "shippingAddress": "456 Oak Ave"
+    },
+    {
+      "id": "ORD-1003",
+      "userId": "Customer C",
+      "items": [
+        {
+          "productId": "4",
+          "quantity": 5,
+          "product": {
+            "id": "4",
+            "name": "Smart Sensor Kit",
+            "wholesalePrice": 99.99
+          }
+        }
+      ],
+      "total": 499.95,
+      "status": "shipped",
+      "createdAt": "2026-02-14T10:00:00Z",
+      "shippingAddress": "789 Pine Rd"
+    }
+  ],
+  "cart": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
